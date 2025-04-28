@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - UI Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">UI Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages.html">Pages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link hire-me-btn" href="contact.html">Hire Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Hero Section -->
+    <section class="blog-hero-section text-center py-5">
+        <div class="container">
+            <h1>My Blog</h1>
+            <p class="lead">Insights, Tips, and Updates from My Journey</p>
+        </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="blog-posts py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Featured Post -->
+                <div class="col-12 mb-4">
+                    <div class="blog-post featured">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="trends2.jpg" alt="Featured Blog Post" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="post-content">
+                                    <div class="post-meta">
+                                        <span><i class="far fa-calendar"></i> March 15, 2024</span>
+                                    </div>
+                                    <h2>Latest Trends in Web Development 2024</h2>
+                                    <p>Explore the cutting-edge trends shaping the web development landscape in 2024. From AI integration to advanced responsive design techniques.</p>
+                                    <a href="post1.html" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Regular Posts -->
+                <div class="col-md-4">
+                    <div class="blog-post">
+                        <img src="trends.png" alt="Blog Post 2" class="img-fluid rounded" class="blog-post-image">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> March 10, 2024</span>
+                            </div>
+                            <h3>The Future of UI Design</h3>
+                            <p>Discover how AI and machine learning are transforming the way we approach UI design.</p>
+                            <a href="post2.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="blog-post">
+                        <img src="responsive.jpg" alt="Blog Post 3" class="img-fluid rounded">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> March 5, 2024</span>
+                            </div>
+                            <h3>Mastering Responsive Design</h3>
+                            <p>Essential tips and techniques for creating truly responsive websites that work on all devices.</p>
+                            <a href="post3.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="blog-post">
+                        <img src="photography.jpg" alt="Blog Post 4" class="img-fluid rounded">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> March 1, 2024</span>
+                            </div>
+                            <h3>Photography Tips for Developers</h3>
+                            <p>Learn how to take better photos for your web projects and enhance your visual content.</p>
+                            <a href="post4.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <nav aria-label="Blog pagination">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content text-center">
+                <div class="footer-logo">
+                    <h2>UI Portfolio</h2>
+                </div>
+                <div class="footer-contact">
+                    <p>
+                        <i class="fas fa-phone"></i> +25440968090
+                        <i class="fas fa-envelope ms-3"></i> amutsadennis@gmail.com
+                        <i class="fas fa-map-marker-alt ms-3"></i> Nairobi, Kenya
+                    </p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2024 UI Portfolio. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
