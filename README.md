@@ -30,7 +30,7 @@ ui-portfolio/
 ├── styles.css
 ├── assets/
 │   ├── profile-bw.jpg
-|   |_ profile-bw.jpg
+|   |_ profile-bw1.jpg
 │   ├── skills.jpg
 │   ├── work1.jpg
 │   ├── work2.jpg
@@ -90,9 +90,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ##  Group Members
 - Martin Mutwiri Gachanja - Group Leader (Coordinator)
 - Steve Ogolla Asumba - worked on README.md
-- Dennis Amutsa - worked on Index.html and pages
+- Dennis Amutsa - worked on Index.html, services and pages 
 - Simon Muriu Mbugua - worked on blog
-- Hannah Machocho - worked on styles.css
+- Hannah Machocho - worked on about
 
 ##  Group Members Emails
 - mutwirigachanja1@gmail.com
